@@ -1,0 +1,7 @@
+[llm]
+embedding_model = "embed-english-v3.0"
+
+[rag]
+source_file_location = "../data/dataset.txt"
+vector_store_path = "./chroma_db"
+collection_name = "organizations_profile"
